@@ -10,7 +10,7 @@ Basic Example for Spark Structured Streaming and Kafka Integration
        $ kafka-server-start /usr/local/etc/kafka/server.properties
 ## create a kafka topic
        $ kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test
-# create a text folder and change its directory on the source code in 'kafkaProducer.scala', then you are good to go !
+### create a text folder and change its directory on the source code in 'kafkaProducer.scala', then you are good to go !
 
 ## Kafka Presentation
 
